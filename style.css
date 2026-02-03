@@ -57,6 +57,7 @@ body.light-theme { background-color: rgb(230, 240, 255); color: black;}
 .title {
     font-family: "Space Mono", "Courier New", monospace;
     text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
+    transition: text-shadow 0.5s;
 }
 
 .title.light-theme {
@@ -106,7 +107,7 @@ body.light-theme { background-color: rgb(230, 240, 255); color: black;}
 }
 
 .infocard:hover {
-    transform: scale(1.01, 1.01);
+    transform: scale(1.015, 1.015);
 }
 
 .infocard-container {
