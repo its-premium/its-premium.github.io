@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .split("")
         .map((char, i) => {
         const displayChar = char === " " ? "&nbsp;" : char;
-        return `<span style="animation-delay:${i * 0.1}s">${displayChar}</span>`;
+        return `<span style="animation-delay:${i * 0.07}s">${displayChar}</span>`;
     })
     .join("");
 
