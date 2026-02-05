@@ -183,6 +183,20 @@ body.light-theme { background-color: rgb(230, 240, 255); color: black;}
     height: 20px;
 }
 
+.ui-button {
+    background-color: rgba(1, 1, 1, 0.1);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: Muli;
+}
+
+.ui-button:hover {
+    transform: scale(1.05);
+}
+
 @keyframes bounceIn {
   0% {
     opacity: 0;
